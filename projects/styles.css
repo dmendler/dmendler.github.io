@@ -1,0 +1,49 @@
+body {
+  background-color: #dbe4ee;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.description {
+  margin: 10px;
+}
+
+.download {
+  margin: 10px;
+}
+
+.navbar {
+  background-color: #81a4cd !important;
+  font-family: "Jura", sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.nav-link {
+  color: black;
+}
+
+/* when you hover over nav links */
+.nav-link:hover {
+  color: whitesmoke;
+}
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jura-<uniquifier > {
+  font-family: "Jura", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
