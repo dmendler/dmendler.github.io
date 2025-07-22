@@ -37,7 +37,37 @@
       </div>
     </nav>
   </br>
-    <h1><center>My Projects</center></h1>
-    
+    <h1><center>AI Text Completion App</center></h1>
+    <div class="container mt-4">
+        <h3>Try the AI Text Completion App</h3>
+        <textarea id="prompt" class="form-control" rows="4" placeholder="Type your prompt..."></textarea>
+        <br />
+        <input type="number" class="form-control" id="temperature" placeholder="Temperature (0.0 - 1.0)">
+        <br />
+        <input type="number" class="form-control" id="max_tokens" placeholder="Max tokens">
+        <br />
+        <button class="btn btn-primary" onclick="submitPrompt()">Submit</button>
+        <br /><br />
+        <h5>Response:</h5>
+        <pre id="response" style="white-space: pre-wrap;"></pre>
+        </div>
+
+        <script>
+        async function submitPrompt() {
+            const prompt = document.getElementById("prompt").value;
+            const temperature = document.getElementById("temperature").value;
+            const max_tokens = document.getElementById("max_tokens").value;
+
+            const res = await fetch('/complete', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ prompt, temperature, max_tokens })
+            });
+
+            const data = await res.json();
+            document.getElementById("response").textContent = data.completion || data.error;
+        }
+        </script>
+
   </body>
 </html>
