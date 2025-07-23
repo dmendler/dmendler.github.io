@@ -47,3 +47,24 @@ h1 {
   font-style: normal;
 }
 
+.project-button {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+}
+
+.project-card {
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.project-img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
