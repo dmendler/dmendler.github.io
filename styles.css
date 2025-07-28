@@ -33,12 +33,11 @@ links {
 }
 
 .nav-link:hover {
-  color: #dddddd;
+  color: #888888;
 }
 
 .nav-link.active{
   color: white !important;
-  text-decoration: underline;
   font-weight: bold;
 }
 
