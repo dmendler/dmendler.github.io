@@ -39,6 +39,7 @@ links {
 .nav-link.active{
   color: white !important;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .lato-regular {
