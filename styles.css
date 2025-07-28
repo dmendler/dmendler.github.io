@@ -28,6 +28,8 @@ links {
 
 .nav-link {
   color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
 }
 
 .nav-link:hover {
@@ -35,7 +37,8 @@ links {
 }
 
 .nav-link.active{
-  color: #f0f0f0 !important;
+  color: white !important;
+  text-decoration: underline;
   font-weight: bold;
 }
 
