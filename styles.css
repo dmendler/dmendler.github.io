@@ -1,10 +1,12 @@
 body {
-  background-color: #dbe4ee;
+  background-color: #1c1c1c;
   font-family: "Lato", sans-serif;
+  color: white;
 }
 
 h1 {
   text-decoration: underline;
+  color: white;
 }
 
 links {
@@ -14,32 +16,35 @@ links {
 }
 
 .navbar {
-  background-color: #81a4cd !important;
+  background-color: #000000 !important;
   font-family: "Jura", sans-serif;
 }
 
 .navbar-brand {
   font-weight: bold;
   font-size: 25px;
+  color: white;
 }
 
 .nav-link {
-  color: black;
+  color: white;
 }
 
 .nav-link:hover {
-  color: whitesmoke;
+  color: #dddddd;
 }
 
 .lato-regular {
   font-family: "Lato", serif;
   font-weight: 400;
   font-style: normal;
+  color: white;
 }
 
-.jura-<uniquifier > {
+.jura-<uniquifier> {
   font-family: "Jura", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  color: white;
 }
