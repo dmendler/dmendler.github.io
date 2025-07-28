@@ -34,6 +34,11 @@ links {
   color: #dddddd;
 }
 
+.nav-link.active{
+  color: #f0f0f0 !important;
+  font-weight: bold;
+}
+
 .lato-regular {
   font-family: "Lato", serif;
   font-weight: 400;
