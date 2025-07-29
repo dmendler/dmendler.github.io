@@ -9,7 +9,6 @@ body {
   color: white;
 }
 
-
 h1 {
   text-decoration: underline;
   color: white;
@@ -48,6 +47,11 @@ h1 {
   color: white !important;
   font-weight: bold;
   text-decoration: none;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
 }
 
 .lato-regular {
