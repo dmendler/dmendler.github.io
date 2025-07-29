@@ -42,6 +42,11 @@ links {
   text-decoration: none;
 }
 
+footer {
+  background-color: #000000;
+  color: white;
+}
+
 .lato-regular {
   font-family: "Lato", serif;
   font-weight: 400;
