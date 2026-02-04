@@ -26,6 +26,11 @@ links {
   color: white;
 }
 
+.navbar-brand:hover {
+  color: white !important;
+  cursor: default;
+}
+
 .nav-link {
   color: white;
   text-decoration: none;
